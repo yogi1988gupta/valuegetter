@@ -1,0 +1,27 @@
+get the desired color:
+https://codepen.io/sosuke/pen/Pjoqqp 
+
+open the required SVG where you want to change color:
+then apply the changes like this :
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style=""><path d="M6 12l4-4-4-4" stroke="#00a4d6" fill="none" style="&#10;" stroke-width="1.5"/></svg>
+
+change color:   fill the color in stroke attribute
+font-weight:      fill stroke-width
+
+now save this new svg in notepad and file type as svg
+
+now get the base64 encoded form from here:
+https://base64.guru/converter/encode/image/svg 
+
+ .ag-icon-expanded {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgc3R5bGU9IiI+PHBhdGggZD0iTTYgMTJsNC00LTQtNCIgc3Ryb2tlPSIjMDBhNGQ2IiBmaWxsPSJub25lIiBzdHlsZT0iJiMxMDsiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9zdmc+) !important;
+  background-color: transparent !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+  opacity: 0.87 !important;
+  width: 16px !important;
+  display: inline-block !important;
+}
+ 
